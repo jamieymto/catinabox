@@ -11,7 +11,8 @@ class TestPantry(object):
 
     def test__add_food__succeeds(self):
         p = pantry.Pantry()
-        assert False
+	p.add_food()
+        assert
 
     def test__add_food__quantity_0__raises(self):
         p = pantry.Pantry()
